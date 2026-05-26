@@ -7,6 +7,9 @@ export default function Home() {
     <div>
       <Banner></Banner>
       <Card></Card>
+      <main>
+        
+      </main>
     </div>
   );
 }
