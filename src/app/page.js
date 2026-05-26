@@ -1,5 +1,6 @@
 import Banner from "@/components/banner/Banner";
 import Card from "@/components/card/Card";
+import HomePage from "./home/page";
 
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
       <Banner></Banner>
       <Card></Card>
       <main>
-        
+        <HomePage></HomePage>
       </main>
     </div>
   );
