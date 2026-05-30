@@ -1,6 +1,7 @@
-import Friends from '@/components/homepage/Friends';
+
 
 import friendsData from '@/../public/data.json'; 
+import Friends from '@/components/homePage/Friends';
 
 const HomePage = async () => {
     
