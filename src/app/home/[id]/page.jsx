@@ -1,15 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-import QuickCheckIn from "@/components/clickbtn/QuickCheckIn";
+// 
 import { AiOutlineDelete } from "react-icons/ai";
 import { FaArchive } from "react-icons/fa";
 import { LiaSnapchatGhost } from "react-icons/lia";
-
+import QuickCheckIn from "@/components/clickbtn/QuickCheckIn";
 const PageId = async ({ params }) => {
    
     const { id } = await params;
 
 
-    const res = await fetch("https://keen-keeper-next-nb3q.vercel.app", {
+    const res = await fetch("./data.json", {
         cache: "no-store", 
     });
 
