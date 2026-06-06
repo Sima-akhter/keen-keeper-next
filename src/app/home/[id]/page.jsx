@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // 
+export const dynamic = "force-dynamic";
 import { AiOutlineDelete } from "react-icons/ai";
 import { FaArchive } from "react-icons/fa";
 import { LiaSnapchatGhost } from "react-icons/lia";
