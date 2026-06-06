@@ -9,7 +9,7 @@ const PageId = async ({ params }) => {
     const { id } = await params;
 
 
-    const res = await fetch("./data.json", {
+    const res = await fetch("https://keen-keeper-next-nb3q.vercel.app/data.json", {
         cache: "no-store", 
     });
 
