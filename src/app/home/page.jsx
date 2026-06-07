@@ -1,10 +1,13 @@
 
 
-import friendsData from '@/../public/data.json'; 
+ 
 import Friends from '@/components/homePage/Friends';
 
 const HomePage = async () => {
-    
+    const res = await fetch("https://keen-keeper-next-nb3q.vercel.app/data.json", {
+        cache: "no-store", 
+    });
+    const friendsData = await res.json();
     
     
     console.log(friendsData); 
