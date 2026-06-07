@@ -1,7 +1,6 @@
 
 
- 
-import Friends from '@/components/homePage/Friends';
+import Friends from "@/components/homepage/Friends";
 
 const HomePage = async () => {
     const res = await fetch("https://keen-keeper-next-nb3q.vercel.app/data.json", {
